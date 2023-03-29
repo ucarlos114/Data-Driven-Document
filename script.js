@@ -119,8 +119,8 @@ function loadScatterPlot() {
     bottom: 0.03 * parent.height,
     left: 0.1 * parent.width,
   };
-  const width = 0.8 * parent.width;
-  const height = 0.75 * parent.height;
+  const width = 0.9 * parent.width;
+  const height = 0.7 * parent.height;
 
   // create new SVG element
   const svg = d3
