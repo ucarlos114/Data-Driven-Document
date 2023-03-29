@@ -114,9 +114,9 @@ function loadScatterPlot() {
 
   // calculate new child dimensions
   const margin = {
-    top: 0.0 * parent.height,
+    top: 0.025 * parent.height,
     right: 0.1 * parent.width,
-    bottom: 0.03 * parent.height,
+    bottom: 0.075 * parent.height,
     left: 0.1 * parent.width,
   };
   const width = 0.9 * parent.width;
