@@ -105,7 +105,7 @@ async function getJSONdata(print) {
 function loadScatterPlot() {
   // add the title component
   const scat = document.getElementById("scatterDiv");
-  const title = document.createElement("h2");
+  const title = document.createElement("h3");
   title.innerHTML = "Scatter Plot";
   scat.appendChild(title);
 
@@ -120,7 +120,7 @@ function loadScatterPlot() {
     left: 0.1 * parent.width,
   };
   const width = 0.8 * parent.width;
-  const height = 0.8 * parent.height;
+  const height = 0.75 * parent.height;
 
   // create new SVG element
   const svg = d3
